@@ -1,0 +1,12 @@
+Synthetic study note: MIG-217
+
+This fictional note is generated only for software demonstration. The study identifier, compound, participants, measurements, and results are invented and do not describe real people or a real clinical trial.
+
+Study design
+MIG-217 was a fictional 12-participant, eight-week exploratory study of compound Q in adults with condition Z. Participants received 25 mg of compound Q by mouth once daily. This note is not medical advice.
+
+Efficacy endpoint
+The primary endpoint was the change from baseline in biomarker X at week 8. The fictional study report recorded a mean decrease of 3.2 units from baseline at week 8. No conclusion about clinical benefit should be inferred from this synthetic result.
+
+Safety observations
+Two of the 12 fictional participants reported mild nausea. The fictional report recorded no serious adverse events during the eight-week observation period. These observations are illustrative data only.

@@ -1,0 +1,1 @@
+"""Local medical document assistant."""

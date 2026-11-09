@@ -1,0 +1,395 @@
+{
+  "dataset": "BioASQ Task B 11b training mirror",
+  "question_count": 20,
+  "candidate_passage_count": 450,
+  "gold_passage_count": 159,
+  "embedding_model": "embed-v4.0",
+  "embedding_dimension": 1024,
+  "created_at": "2026-11-09T23:10:05.763381+00:00",
+  "configurations": [
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.25689867214828516,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 1.0
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.24975581500542804,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 0.85
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.24975581500542804,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 0.85
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.3637973442965703,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 1.95
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.349511630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.55
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.349511630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.55
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.46355315930199825,
+        "article_recall_at_k": 0.46355315930199825,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 2.9
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.46355315930199825,
+        "article_recall_at_k": 0.43676744501628406,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 2.2
+      }
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 2245,
+      "metrics": {
+        "raw_article_recall_at_k": 0.46355315930199825,
+        "article_recall_at_k": 0.4339896672385063,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 2.15
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.25689867214828516,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 0.95
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.24975581500542804,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 0.85
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.24975581500542804,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 0.85
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.3637973442965703,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 1.9
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.349511630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.55
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.349511630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.55
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.45819601644485547,
+        "article_recall_at_k": 0.45819601644485547,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 2.75
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.45819601644485547,
+        "article_recall_at_k": 0.43676744501628406,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 2.2
+      }
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 1445,
+      "metrics": {
+        "raw_article_recall_at_k": 0.45819601644485547,
+        "article_recall_at_k": 0.38305532380416285,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.95
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.25689867214828516,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 0.9
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.24975581500542804,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 0.85
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.25689867214828516,
+        "article_recall_at_k": 0.23975581500542803,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.8,
+        "mean_retrieved_articles": 0.8
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.3637973442965703,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 1.75
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.349511630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 1.55
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.3637973442965703,
+        "article_recall_at_k": 0.317011630010856,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.8,
+        "mean_retrieved_articles": 1.4
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.4510531593019983,
+        "article_recall_at_k": 0.4510531593019983,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.9,
+        "mean_retrieved_articles": 2.45
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.4510531593019983,
+        "article_recall_at_k": 0.43676744501628406,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.85,
+        "mean_retrieved_articles": 2.2
+      }
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 979,
+      "metrics": {
+        "raw_article_recall_at_k": 0.4510531593019983,
+        "article_recall_at_k": 0.35510077834961734,
+        "raw_article_mrr": 0.9,
+        "article_mrr": 0.8,
+        "mean_retrieved_articles": 1.85
+      }
+    }
+  ],
+  "sampling": {
+    "seed": 17,
+    "question_count_requested": 20,
+    "candidate_passage_count_requested": 450,
+    "negative_passages_sampled": 291
+  }
+}
