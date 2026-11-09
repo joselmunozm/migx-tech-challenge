@@ -1,0 +1,2380 @@
+{
+  "note": "data/samples/synthetic_mig217_note.txt",
+  "question_count": 9,
+  "embedding_model": "embed-v4.0",
+  "embedding_dimension": 1024,
+  "created_at": "2026-11-09T22:40:51.389359+00:00",
+  "configurations": [
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.6666666666666666,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.7777777777777778
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.3333333333333333,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.3333333333333333,
+        "mean_retrieved_chunks": 0.2222222222222222
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.8333333333333334,
+        "answerable_evidence_precision": 0.4166666666666667,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.75,
+        "mean_retrieved_chunks": 1.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.3333333333333333,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.3333333333333333,
+        "mean_retrieved_chunks": 0.2222222222222222
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 1.0,
+        "answerable_evidence_precision": 0.4,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.8055555555555555,
+        "mean_retrieved_chunks": 1.8888888888888888
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 3,
+          "accepted_evidence_rank": 3,
+          "expected_evidence_score": 0.3102,
+          "retrieved_chunk_indices": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 3,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3102,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 4,
+      "metrics": {
+        "answerable_evidence_recall": 0.3333333333333333,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.3333333333333333,
+        "mean_retrieved_chunks": 0.2222222222222222
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3304,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 3,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3102,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4759,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5624,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5349,
+          "retrieved_chunk_indices": [
+            3
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4045,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.8333333333333334,
+        "answerable_evidence_precision": 0.8333333333333334,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.8333333333333334,
+        "mean_retrieved_chunks": 0.7777777777777778
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.8,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 1.0,
+        "answerable_evidence_precision": 0.6,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.9166666666666666,
+        "mean_retrieved_chunks": 1.2222222222222223
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.8,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 1.0,
+        "answerable_evidence_precision": 0.6363636363636364,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.9166666666666666,
+        "mean_retrieved_chunks": 1.3333333333333333
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.8,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.6666666666666666,
+        "mean_retrieved_chunks": 0.5555555555555556
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 75,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 3,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3609,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3453,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.408,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4581,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.552,
+          "retrieved_chunk_indices": [
+            2
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.4086,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.3,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.5,
+        "answerable_evidence_precision": 0.6,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.5,
+        "mean_retrieved_chunks": 0.6666666666666666
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.4,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 1,
+      "threshold": 0.5,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.3,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.6666666666666666,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.5833333333333334,
+        "mean_retrieved_chunks": 0.7777777777777778
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.4,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 2,
+      "threshold": 0.5,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.3,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.6666666666666666,
+        "answerable_evidence_precision": 0.6666666666666666,
+        "unanswerable_rejection_rate": 0.6666666666666666,
+        "answerable_mrr": 0.5833333333333334,
+        "mean_retrieved_chunks": 0.7777777777777778
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": 2,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": [
+            0
+          ]
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.4,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 100,
+      "top_k": 3,
+      "threshold": 0.5,
+      "chunk_count": 2,
+      "metrics": {
+        "answerable_evidence_recall": 0.16666666666666666,
+        "answerable_evidence_precision": 1.0,
+        "unanswerable_rejection_rate": 1.0,
+        "answerable_mrr": 0.16666666666666666,
+        "mean_retrieved_chunks": 0.1111111111111111
+      },
+      "queries": [
+        {
+          "id": "participants",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2984,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "dose",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.2889,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "primary-endpoint",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3835,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mean-change",
+          "raw_evidence_rank_at_k": 2,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3699,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "mild-nausea",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": 1,
+          "expected_evidence_score": 0.5205,
+          "retrieved_chunk_indices": [
+            1
+          ]
+        },
+        {
+          "id": "serious-adverse-events",
+          "raw_evidence_rank_at_k": 1,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": 0.3602,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "greeting",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "missing-statistic",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        },
+        {
+          "id": "medical-advice",
+          "raw_evidence_rank_at_k": null,
+          "accepted_evidence_rank": null,
+          "expected_evidence_score": null,
+          "retrieved_chunk_indices": []
+        }
+      ]
+    }
+  ]
+}

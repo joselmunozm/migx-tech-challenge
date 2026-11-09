@@ -1,0 +1,56 @@
+[
+  {
+    "id": "participants",
+    "question": "How many participants were in the study?",
+    "expected_evidence": "12-participant",
+    "answerable": true
+  },
+  {
+    "id": "dose",
+    "question": "What dose and schedule did participants receive?",
+    "expected_evidence": "25 mg of compound Q by mouth once daily.",
+    "answerable": true
+  },
+  {
+    "id": "primary-endpoint",
+    "question": "What was the primary endpoint?",
+    "expected_evidence": "change from baseline in biomarker X at week 8.",
+    "answerable": true
+  },
+  {
+    "id": "mean-change",
+    "question": "What mean change from baseline was recorded at week 8?",
+    "expected_evidence": "mean decrease of 3.2 units from baseline at week 8.",
+    "answerable": true
+  },
+  {
+    "id": "mild-nausea",
+    "question": "How many participants reported mild nausea?",
+    "expected_evidence": "Two of the 12 fictional participants reported mild nausea.",
+    "answerable": true
+  },
+  {
+    "id": "serious-adverse-events",
+    "question": "Were any serious adverse events recorded?",
+    "expected_evidence": "no serious adverse events during the eight-week observation period.",
+    "answerable": true
+  },
+  {
+    "id": "greeting",
+    "question": "Hi",
+    "expected_evidence": null,
+    "answerable": false
+  },
+  {
+    "id": "missing-statistic",
+    "question": "What was the p-value for the primary endpoint?",
+    "expected_evidence": null,
+    "answerable": false
+  },
+  {
+    "id": "medical-advice",
+    "question": "What treatment should I take for condition Z?",
+    "expected_evidence": null,
+    "answerable": false
+  }
+]
